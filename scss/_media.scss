@@ -1,0 +1,415 @@
+@media(max-width: 1330px){
+    .price__box-1,
+    .price__box-4,
+    .price__box-2,
+    .price__box-5,
+    .price__box-7,
+    .price__box-3,
+    .price__box-6 {
+        // flex-direction: column;
+        top: 0px;
+        left: 0px;
+        margin-bottom: 35px;
+        margin-left: 10px;
+    }
+    .price__offer{
+        top: 0px;
+    }
+    .reviews__slider-text{
+        margin-left: 100px;
+    }
+    .reviews,
+    .price{
+        margin-bottom: -100px;
+    }
+}
+
+@media(max-width: 1283px){
+    .price{
+        margin-bottom: 0px;
+    }
+}
+
+@media(max-width: 1200px){
+    .about__item-img{
+        max-width: 600px;
+    }
+    .about__content{
+        margin: 10px;
+    }
+    .about__item-title{
+        font-size: 24px;
+        line-height: 27px;
+    }
+    .about__item-text{
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .reviews__slider-item-1,
+    .reviews__slider-item-2,
+    .reviews__slider-item-3{
+        height: 85vh;
+    }
+    .reviews__slider-text{
+        margin-left: 80px;
+        font-size: 15px;
+        line-height: 20px;
+        width: 340px;
+    }
+}
+
+@media(max-width: 1000px){
+    .about__item-img{
+        max-width: 450px;
+    }
+}
+
+@media(max-width: 950px){
+    .about__item{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .about__content{
+        top: 40%;
+    }
+    .about__item-img{
+        max-width: 380px;
+    }
+    .schedule__offer{
+        font-size: 18px;
+        line-height: 25px;
+    }
+}
+
+@media(max-width: 900px){
+    .menu__item+.menu__item {
+        margin-left: 45px;
+    }
+    .about__title{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .about__item-img{
+        order: -1;
+        max-width: 400px;
+    }
+    .about__content{
+        width: 100%;
+    }
+    .about__item-title{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .about__item-text{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .price__boxes{
+        justify-content: space-around;
+    }
+    .price__box-title{
+        font-size: 23px;
+        line-height: 29px;
+    }
+    .price__box-include-item{ 
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .reviews__slider-text{
+        top: 10%;
+    }
+}
+
+@media(max-width: 800px){
+    .schedule__inner{
+        flex-direction: column;
+    }
+    .schedule__item{
+        margin: 50px auto;
+    }
+    .schedule__offer{
+        top: 0;
+        // margin: -10px auto;
+        height: 100px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+ }
+
+@media(max-width: 760px){
+    .menu__item+.menu__item {
+        margin-left: 20px;
+    }
+    .footer__logo-img,
+    .header__logo-img{
+        max-width: 400px;
+    }
+    .header__title{
+        font-size: 40px;
+    }
+    .header__text{
+        font-size: 25px;
+    }
+    .reviews__slider-text{
+        top: 8%;
+    }
+    .application__form{
+        padding: 38px 210px;
+    }
+    .application__input{
+        width: 300px;
+    }
+    .application__btn{
+        font-size: 28px;
+        line-height: 30px;
+    }
+ }
+
+ @media(max-width: 650px){
+    .menu__item+.menu__item {
+        margin-left: 15px;
+    }
+    .menu__item{
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .about{
+        padding-top: 60px;
+    }
+    .about__item{
+        margin-bottom: 100px;
+    }
+    .schedule{
+        margin-bottom: 60px;
+    }
+    .schedule__inner{
+        right: 0;
+    }
+    .schedule__offer{
+        width: 320px;
+        margin: 28px;
+    }
+    .reviews__slider-text{
+        margin-left: 40px;
+        width: 240px;
+        top: 5%;
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+@media(max-width: 520px){
+    // .header__title,
+    // .header__text{
+    //     background-color: rgba(255,255,255,0.2);
+    // }
+    .header__title{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .header__text{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .menu{
+        order: 1;
+    }
+    .menu__list{
+        display: block;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        background-color: #D30064;
+        right: 0;
+        padding: auto;
+        text-align: center;
+        transform: translateY(-500px); //скрытие меню
+        transition: all .5s;
+    }
+    .menu__item+.menu__item {
+        margin: 0px;
+    }
+    .menu__list-link{
+        display: block;
+        padding: 20px 0;
+    }
+    .menu__btn{
+        display: block;
+        width: 35px;
+        height: 24px;
+        border: none;
+        cursor: pointer;
+        border-top: 2px solid #fefefe;
+        border-bottom: 2px solid #fefefe;
+        background-color: transparent;
+        position: relative;
+    }
+    .menu__btn::before{
+        content: '';
+        position: absolute;
+        width: 35px;
+        height: 2px;
+        background-color: #fefefe;
+        left: 0;
+        top: 9px;
+    }
+    .menu__list.menu__list--active{  //открытие меню
+        transform: translateY(0);
+    }
+    .schedule__offer-title{
+        margin-top: 0;
+    }
+    .price__title{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .price__offer-title,
+    .price__offer-text{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .application__form{
+        padding: 20px 180px;
+        border-radius: 75px;
+    }
+    .application__input{
+        width: 230px;
+        padding: 10px 30px;
+    }
+    .application__btn{
+        font-size: 20px;
+        line-height: 15px;
+    }
+}
+
+@media(max-width: 460px){
+    .about__item-img{
+        max-width: 350px;
+        margin: 10px;
+    }
+    .schedule__item,
+    .schedule__offer{
+        width: auto;
+    }
+    .reviews__slider-text{
+        top: 0;
+        margin-left: 10px;
+    }
+    .application{
+        padding: 120px 0px;
+    }
+    .application__form{
+        padding: 15px 150px;
+    }
+    .application__input{
+        width: 190px;
+        padding: 8px 0px;
+    }
+    .application__btn{
+        font-size: 18px;
+        line-height: 10px;
+        width: 177px;
+    }
+    .footer__logo-img{
+        max-width: 220px;
+    }
+}
+
+
+@media(max-width: 420px){
+    .header__title{
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+    .header__text{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .header__logo-img{
+        max-width: 220px;
+    }
+    .header__link{ 
+        width: 250px;
+        font-size: 20px;
+        line-height: 18px;
+    }
+    .about__item-img{
+        max-width: 220px;
+    }
+    .schedule__offer{
+        font-size: 16px;
+        line-height: 22px;
+        margin: 20px;
+    }
+    .price__box-1,
+    .price__box-4,
+    .price__box-2,
+    .price__box-5,
+    .price__box-7,
+    .price__box-3,
+    .price__box-6{
+        width: 260px;
+        margin-left: 0;
+    }
+    .price__box-2-img{
+        width: 80px;
+        height: 80px;
+        right: -163px;
+        top: -52px;
+    }
+    .price__box-content {
+        width: 200px;
+    }    
+    .price__box-package{
+        display: block;
+    }
+    .price__box-title{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .price__box-include-item{ 
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .reviews__slider-text{
+        margin-left: 5px;
+    }
+    .application__form{
+        padding: 15px 125px;
+    }
+    .application__input{
+        width: 175px;
+    }
+    .application__btn{
+        font-size: 13px;
+        line-height: 8px;
+        width: 140px;
+    }
+    .footer__link{
+        margin-top: 50px;
+        font-size: 12px;
+    }
+    .footer__social{
+        margin-bottom: 35px;
+    }
+    .footer__copy{
+        margin-bottom: 50px;
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 320px){
+    .header__title{
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    .header__text{
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    .header__link{ 
+        width: 250px;
+        font-size: 20px;
+        line-height: 18px;
+    }
+}
